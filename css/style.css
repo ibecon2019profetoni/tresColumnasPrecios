@@ -1,0 +1,77 @@
+/* FONTS */
+/* Helvetica Neue Regular */
+@font-face{
+    font-family: 'HelveticaNeue';
+
+        src: local('Helvetica Neue'),
+             url(../fonts/helveticaNeue.oft) format('opentype'),
+             url(../fonts/helveticaNeue.woff) format('woff'),
+             url(../fonts/helveticaNeue.woff2) format('woff2');
+}
+/* Helvetica Neue Italic */
+@font-face{
+    font-family: 'HelveticaNeueItalic';
+
+        src: local('Helvetica Neue'),
+             url(../fonts/helveticaNeueItalic.otf) format('opentype'),
+             url(../fonts/helveticaNeueItalic.woff) format('woff'),
+             url(../fonts/helveticaNeueItalic.woff2) format('woff2');
+}
+/* Helvetica Neue Italic Light */
+@font-face{
+    font-family: 'HelveticaNeueItalicLight';
+
+        src: local('Helvetica Neue'),
+             url(../fonts/helveticaNeueLightItalic.otf) format('opentype'),
+             url(../fonts/helveticaNeueLightItalic.woff) format('woff'),
+             url(../fonts/helveticaNeueLightItalic.woff2) format('woff2');
+}
+/* Helvetica Neue Bold */
+@font-face{
+    font-family: 'HelveticaNeueBold';
+
+        src: local('Helvetica Neue'),
+             url(../fonts/helveticaNeueBold.otf) format('opentype'),
+             url(../fonts/helveticaNeueBold.woff) format('woff'),
+             url(../fonts/helveticaNeueBold.woff2) format('woff2');
+}
+
+/* ********************************* */
+
+html{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 111px;
+    padding: 0px 45px;
+    background-color: #4C6291;
+    color: #FFFFFF
+}
+
+.logotipo{
+    display: flex;
+    align-items: flex-end;
+}
+.logotipo__ghost{
+    font-size: 65px;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+.menuPrincipal{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.menuPrincipal a{
+    font-family: 'Helvetica Neue Bold', sans-serif;
+    color: #E6E6E6;
+    text-decoration: none;
+    font-size: 18px;
+}

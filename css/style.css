@@ -40,9 +40,11 @@
 
 html{
     font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
 
 header{
+    width: 100%;
     background-color: #eee;
     display: flex;
     justify-content: space-between;
@@ -53,6 +55,7 @@ header{
     color: #FFFFFF
 }
 
+
 .logotipo{
     display: flex;
     align-items: flex-end;
@@ -61,17 +64,121 @@ header{
     font-size: 65px;
     font-style: italic;
     font-weight: lighter;
-    
 }
 
 .menuPrincipal{
-    width: 30%;
+    flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .menuPrincipal a{
     font-family: 'Helvetica Neue Bold', sans-serif;
     color: #E6E6E6;
     text-decoration: none;
     font-size: 18px;
+}
+.menuPrincipal a:nth-child(2){
+    padding: 0 2rem;
+}
+
+
+.contenedor{
+    width: 100vw;
+    height: calc(100vh - 111px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Zona de titular */
+/* *************** */
+
+.zonaTitular {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.zonaTitular__linea {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+}
+.zonaTitular__titular {
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+
+
+
+/* Zona de precios */
+/* *************** */
+
+.zonaVentas {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.zonaVentas__blockBase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E4EAF7;
+    flex-basis: content;
+/* ******* */
+    font-size: 1.2rem;
+/* ******* */
+    height: 30em;
+    padding: 0.9em 3em;
+}
+
+.zonaVentas__blockBase:nth-child(2) {
+/* ******* */
+    font-size: 1.3rem;
+/* ******* */
+background-color: #C7D7F8;
+}
+.zonaVentas__blockBase:nth-child(3) {
+background-color: #ABC3F7;
+}
+.zonaVentas__blockBase:nth-child(2) {
+/* ******* */
+    font-size: 1.3rem;
+/* ******* */
+background-color: #C7D7F8;
+}
+.zonaVentas__blockBase--titulo {
+    font-size: 1.5em;
+}
+.zonaVentas__blockBase--precio {
+    font-size: 2.4em;
+}
+.zonaVentas__blockBase__caracteristicas {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    height: 15em;
+}
+.zonaVentas__blockBase__caracteristicas--01 {
+}
+
+.zonaVentas__blockBase__caracteristicas--02 {
+}
+.zonaVentas__blockBase__caracteristicas--03 {
+}
+.zonaVentas__blockBase__caracteristicas--04 {
+}
+.zonaVentas__blockBase__caracteristicas--05 {
+}
+.zonaVentas__blockBase__caracteristicas--06 {
+}
+.zonaVentas__blockBase__caracteristicas--07 {
+}
+.zonaVentas__blockBase__caracteristicas--08 {
+}
+.zonaVentas__blockBase__caracteristicas--09 {
+}
+
+.zonaVentas__blockBase--boton {
 }

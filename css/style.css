@@ -43,16 +43,14 @@ html{
     font-size: 16px;
 }
 
+
 header{
     width: 100%;
-    background-color: #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 111px;
     padding: 0px 45px;
-    background-color: #4C6291;
-    color: #FFFFFF
 }
 
 
@@ -162,7 +160,6 @@ background-color: #C7D7F8;
 }
 .zonaVentas__blockBase__caracteristicas--01 {
 }
-
 .zonaVentas__blockBase__caracteristicas--02 {
 }
 .zonaVentas__blockBase__caracteristicas--03 {
